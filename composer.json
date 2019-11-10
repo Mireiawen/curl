@@ -1,0 +1,23 @@
+{
+	"name": "mireiawen/curl",
+	"description": "cURL class",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mira Manninen",
+			"email": "mir@mireiawen.net"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=7.3.0",
+		"ext-gettext": "*",
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Mireiawen\\cURL\\": "includes/"
+		}
+	}
+}
